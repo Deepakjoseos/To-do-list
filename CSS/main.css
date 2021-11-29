@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  min-height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  
+}
+
+.todo {
+  display: flex;
+  flex-direction: column;
+  border-color: antiquewhite;
+  border-style: solid;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 50px;
+ max-width: 800px;
+  right: 0;
+  left: 0;
+  background-color: #f4f1e0;
+  color: rgb(7, 7, 7);
+  font-family: "Poppins", sans-serif;
+}
+
+header,
+form {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: orangered;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+form input,
+form button {
+  padding: 1px;
+  font-size: 1rem;
+  border: none;
+  background:white;
+}
+form button {
+  color: orange;
+  background: white;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+form button :hover {
+  background: white;
+  color: violet;
+}
+
+.content {
+  position: relative;
+  margin-top: 10px;
+  height: fit-content;
+  text-align: left;
+  color:blue;
+}
+#demo {
+  height: 350px;
+  overflow-y: scroll;
+  margin: 10px 0px;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.checkbox {
+  margin-right: 10px;
+}
+.checkboxcross {
+  text-decoration: line-through;
+}
+
+.deletebtn {
+  margin-right: 10px;
+}
+
+
+.btn :hover {
+  color: green;
+}
+
+.highlight,
+.highlight_stay {
+  color: red;
+  text-decoration: line-through;
+}
+
+#logout:hover, #todoh1:hover {
+  
+  color: yellow;
+}
+
