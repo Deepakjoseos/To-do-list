@@ -34,7 +34,7 @@ $(document).ready(function () {
     // --------------------------------------------------logout mapping--------------------------------------------//
     $("#logout").css("cursor", "pointer");
     $("#logout").click(() => {
-      location = "/TO DO LIST/index.html";
+      location = "Todolist/index.html";
     });
   
     //---------------------------------------------------------Strike Checked------------------------------//
